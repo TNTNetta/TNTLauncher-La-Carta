@@ -1,13 +1,13 @@
 {
-  "name": "tntlauncher",
+  "name": "tntlauncherlacarta",
   "version": "7.0.1",
-  "productName": "TNTLauncher",
+  "productName": "TNTLauncher La Carta",
   "description": "Minecraft Launcher",
-  "author": "Jonatan Luna (https://github.com/tntnetta/)",
+  "author": "TNTStudios (https://github.com/tntnetta/)",
   "license": "TNTStudios",
-  "homepage": "https://github.com/TNTNetta/TNTLauncher",
+  "homepage": "https://github.com/TNTNetta/TNTLauncher-La-Carta",
   "bugs": {
-    "url": "https://github.com/TNTNetta/TNTLauncher/issues"
+    "url": "https://github.com/TNTNetta/TNTLauncher-La-Carta/issues"
   },
   "private": true,
   "main": "index.js",
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TNTNetta/TNTLauncher.git"
+    "url": "git+https://github.com/TNTNetta/TNTLauncher-La-Carta.git"
   }
 }

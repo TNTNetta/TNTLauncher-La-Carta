@@ -1,6 +1,6 @@
 // NOTE FOR THIRD-PARTY
 // REPLACE THIS CLIENT ID WITH YOUR APPLICATION ID.
-// SEE https://github.com/TNTNetta/TNTLauncher/blob/master/docs/MicrosoftAuth.md
+// SEE https://github.com/TNTNetta/TNTLauncher-La-Carta/blob/master/docs/MicrosoftAuth.md
 exports.AZURE_CLIENT_ID = '931f5816-5ffa-4f4f-bbbe-6af472225496'
 // SEE NOTE ABOVE.
 
