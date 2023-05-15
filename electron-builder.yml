@@ -1,0 +1,51 @@
+appId: 'tntlauncher'
+productName: 'TNTLauncher'
+artifactName: '${productName}-setup-${version}.${ext}'
+
+copyright: 'Copyright © 2023-2026 TNTStudios'
+
+asar: true
+compression: 'maximum'
+
+files:
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+
+extraResources:
+  - 'libraries'
+
+# Windows Configuration
+win: 
+  target: 
+    - target: 'nsis'
+      arch: 'x64'
+
+# Windows Installer Configuration
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+
+# macOS Configuration
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
+# Linux Configuration
+linux: 
+  target: 'AppImage'
+  maintainer: 'Jonatan Luna'
+  vendor: 'Jonatan Luna'
+  synopsis: 'Minecraft Launcher'
+  description: 'Launcher personalizado que permite a los usuarios unirse a servidores modificados. Todas las modificaciones, configuraciones y actualizaciones se manejan automáticamente.'
+  category: 'Game'
+
+
+directories:
+  buildResources: 'build'
+  output: 'dist'

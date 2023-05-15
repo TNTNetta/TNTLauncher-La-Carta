@@ -1,0 +1,49 @@
+{
+    "html": {
+        "avatarOverlay": "Editar"
+    },
+    "js": {
+        "login": {
+            "error": {
+                "invalidValue": "* Valor no válido",
+                "requiredValue": "* Requerido",
+                "userMigrated": {
+                    "title": "Error durante el inicio de sesión:<br>Credenciales no válidas",
+                    "desc": "Ha intentado iniciar sesión con una cuenta migrada. Intente nuevamente usando el correo electrónico de la cuenta como nombre de usuario."
+                },
+                "invalidCredentials": {
+                    "title": "Error durante el inicio de sesión:<br>Credenciales no válidas",
+                    "desc": "El correo electrónico o la contraseña que has introducido no son correctos. Inténtalo de nuevo"
+                },
+                "rateLimit": {
+                    "title": "Error durante el inicio de sesión:<br>Demasiados intentos",
+                    "desc": "Ha habido demasiados intentos de inicio de sesión con esta cuenta recientemente. Por favor, inténtelo de nuevo más tarde."
+                },
+                "noInternet": {
+                    "title": "Error durante el inicio de sesión:<br>No Internet Connection",
+                    "desc": "Debe estar conectado a Internet para iniciar sesión. Conéctate e inténtalo de nuevo."
+                },
+                "authDown": {
+                    "title": "Error durante el inicio de sesión:<br>Servidor de autenticación Offline",
+                    "desc": "El servidor de autenticación de Mojang está actualmente fuera de línea o inaccesible. Espera un poco y vuelve a intentarlo. Puede comprobar el estado del servidor en <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
+                },
+                "notPaid": {
+                    "title": "Error durante el inicio de sesión:<br>Game Not Purchased",
+                    "desc": "La cuenta con la que intenta iniciar sesión no ha comprado una copia de Minecraft.<br>Puede comprar una copia en <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                },
+                "unknown": {
+                    "title": "Error durante el inicio de sesión:<br>Unknown Error"
+                }
+            },
+            "login": "ACCESO",
+            "loggingIn": "INICIANDO SESIÓN",
+            "success": "ÉXITO",
+            "tryAgain": "Intentar otra vez"
+        },
+        "landing": {
+            "launch": {
+                "pleaseWait": "Espere por favor..."
+            }
+        }
+    }
+}
