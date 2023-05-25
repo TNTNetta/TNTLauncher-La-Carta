@@ -47,7 +47,7 @@ if(!isDev){
                 loggerAutoUpdater.info('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/TNTNetta/TNTLauncher-La-Carta/releases/download/v${info.version}/TNTLauncher.La.Carta-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
+                    info.darwindownload = `https://github.com/TNTNetta/TNTLauncher-La-Carta/releases/download/v${info.version}/TNTLauncher-La-Carta-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                     showUpdateUI(info)
                 }
                 
@@ -55,7 +55,7 @@ if(!isDev){
                 break
             case 'update-downloaded':
                 loggerAutoUpdater.info('Update ' + info.version + ' ready to be installed.')
-                settingsUpdateButtonStatus('Install Now', false, () => {
+                settingsUpdateButtonStatus('Instalar', false, () => {
                     if(!isDev){
                         ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
                     }
@@ -63,7 +63,7 @@ if(!isDev){
                 showUpdateUI(info)
                 break
             case 'update-not-available':
-                loggerAutoUpdater.info('No new update found.')
+                loggerAutoUpdater.info('No se encontró ninguna nueva actualización.')
                 settingsUpdateButtonStatus('Buscar actualizaciones')
                 break
             case 'ready':
