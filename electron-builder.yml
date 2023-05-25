@@ -1,5 +1,5 @@
 appId: 'tntlauncherlacarta'
-productName: 'TNTLauncher La Carta'
+productName: 'TNTLauncher-La-Carta'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2023-2026 TNTStudios'
