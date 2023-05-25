@@ -15,7 +15,7 @@
    - Ejemplo: `npm start -- generate server MangoLand 1.18.2 --forge 40.2.1`
 - Generar archivos para servidor de alojamiento: `npm start -- generate distro`
 
-## TNTLauncher
+## TNTLauncher uwu
 
 - Instalar dependencias: `npm i`
 - Probar launcher: `npm run start`
